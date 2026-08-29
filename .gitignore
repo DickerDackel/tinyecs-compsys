@@ -1,6 +1,11 @@
 # Mine...
 Session.vim
 
+tinyecs-compsys-base
+tinyecs-compsys-dynamics
+tinyecs-compsys-patternengine
+tinyecs-compsys-sdl2
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
