@@ -1,19 +1,16 @@
-FIXME API
-=========
+tinyecs-compsys API
+===================
 
 .. contents::
    :class: this-will-duplicate-information-and-it-is-still-useful-here
 
-Core classes
-------------
+Types and Enums
+---------------
 
-.. autoclass:: FIXME.module.ClassA
-.. autoclass:: FIXME.module.ClassB
-.. autoclass:: FIXME.module.ClassC
+.. autoclass:: tinyecs.compsys.Comp
 
-Functions
----------
+   - Empty, fields depend on registered sub modules
 
-.. autofunction:: FIXME.module.function_a
-.. autofunction:: FIXME.module.function_b
-.. autofunction:: FIXME.module.function_c
+.. autoclass:: tinyecs.compsys.Prop
+
+   - Empty, fields depend on registered sub modules
