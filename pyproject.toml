@@ -19,23 +19,8 @@ license = "MIT"
 license-files = ["LICENSE"]
 
 dependencies = [
-    'tinyecs'
-]
-
-[project.optional-dependencies]
-base = ["tinyecs.compsys.base @ git+https://forgejo.indieandmore.photography/dickerdackel/tinyecs-compsys-base"]
-dynamics = ["tinyecs.compsys.dynamics @ git+https://forgejo.indieandmore.photography/dickerdackel/tinyecs-compsys-dynamics"]
-patternengine = ["tinyecs.compsys.patternengine @ git+https://forgejo.indieandmore.photography/dickerdackel/tinyecs-compsys-patternengine"]
-sdl2 = ["tinyecs.compsys.sdl2 @ git+https://forgejo.indieandmore.photography/dickerdackel/tinyecs-compsys-sdl2"]
-all = ["tinyecs.compsys[base,dynamics,sdl2,patternengine]"]
-
-[dependency-groups]
-docs = [
-    "build",
-    "setuptools",
-    "sphinx",
-    "sphinx-autobuild",
-    "furo",
+    'aenum',
+    'tinyecs @ git+https://forgejo.indieandmore.photography/dickerdackel/tinyecs@compsys'
 ]
 
 [project.urls]
