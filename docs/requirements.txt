@@ -1,7 +1,7 @@
 build
 setuptools
 sphinx
-myst-parser
 furo
-tinyecs
 sphinx-autobuild
+tinyecs
+aenum
