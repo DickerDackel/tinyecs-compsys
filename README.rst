@@ -8,24 +8,29 @@ Synopsis
 
 .. code:: python
 
-   from tinyecs.compsys import Comp, Prop
+   import tinyecs.compsys as cs
 
 Usage
 -----
 
-This package has no direct functionality, but all sub modules will register
-their component IDs in the ``tinyecs.compsys.Comp`` enum.
+Besides finding and registering sub modules, this package has no direct functionality.
+Calling the ``register`` function will import all submodules, which will in
+turn inject all their components into the ``Comp`` ``aenum``.
 
 Installation
 ------------
 
-Installation instructions + requirements (should come automagically with
-pyproject.toml)
+It's up to you, if you install the currently provided `compsys` packages from
+`tinyecs` by using
 
 .. code:: console
 
-   pip install tinyecs[base]
-   # or
+   pip install tinyecs[all]
+
+or include them all by adding specific dependencies:
+
+.. code:: console
+
    pip install tinyecs
    pip install tinyecs-compsys
    pip install tinyecs-compsys-base

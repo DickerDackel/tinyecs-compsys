@@ -20,7 +20,7 @@ license-files = ["LICENSE"]
 
 dependencies = [
     'aenum',
-    'tinyecs @ git+https://forgejo.indieandmore.photography/dickerdackel/tinyecs@compsys'
+    'tinyecs'
 ]
 
 [project.urls]

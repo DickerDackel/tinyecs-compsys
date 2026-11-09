@@ -4,6 +4,11 @@ tinyecs-compsys API
 .. contents::
    :class: this-will-duplicate-information-and-it-is-still-useful-here
 
+Primary functions
+-----------------
+
+.. autofunction:: tinyecs.compsys.register
+
 Types and Enums
 ---------------
 
