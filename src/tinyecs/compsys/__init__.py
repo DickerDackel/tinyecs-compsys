@@ -13,6 +13,12 @@ class Prop(StrEnum):
 
 
 def register():
+    """Register all tinyecs-compsy submodules.
+
+    Use this at the beginning of your project to import all submodules into the ``tinyecs.compsys`` namespace.
+    Registered modules will inject their components into ``tinyecs.compsys.Comp``.
+    """
+
     BLACKLIST = ['__pycache__', '__init__.py']
     HOME = files()
 
