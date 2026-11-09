@@ -20,7 +20,7 @@ license-files = ["LICENSE"]
 
 dependencies = [
     'aenum',
-    'tinyecs'
+    'tinyecs',
 ]
 
 [project.urls]
