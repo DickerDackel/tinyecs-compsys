@@ -6,22 +6,30 @@ packages.
 ## Synopsis
 
 ``` python
-from tinyecs.compsys import Comp, Prop
+import tinyecs.compsys as cs
+
+cs.register()
 ```
 
 ## Usage
 
-This package has no direct functionality, but all sub modules will
-register their component IDs in the `tinyecs.compsys.Comp` enum.
+Besides finding and registering sub modules, this package has no direct
+functionality. Calling the `register` function will import all
+submodules, which will in turn inject all their components into the
+`Comp` `aenum`.
 
 ## Installation
 
-Installation instructions + requirements (should come automagically with
-pyproject.toml)
+It\'s up to you, if you install the currently provided
+[compsys]{.title-ref} packages from [tinyecs]{.title-ref} by using
 
 ``` console
 pip install tinyecs[base]
-# or
+```
+
+or include them all by adding specific dependencies:
+
+``` console
 pip install tinyecs
 pip install tinyecs-compsys
 pip install tinyecs-compsys-base
@@ -30,19 +38,7 @@ pip install tinyecs-compsys-base
 ## Support / Contributing
 
 Issues can be opened on [github
-issues](https://forgejo.indieandmore.photography/dickerdackel/tinyecs-compsys/issues)
-
-## AI Contribution Policy
-
-Please respect, that I don't want any contributions done with the assistance
-of AI.  This is a hobby project with focus on the craft of programming.  I
-have experimentally used AI to audit parts of the code and documentation, and
-while it found a lot of typos and 2 actual issues, without exception, the
-provided solutions were often besides the point or plain wrong.  Programming
-as a hobby is about challenging the brain, not about getting fast results.
-
-I have no possibility to enforce that request, the simple fact that I ask for
-it should be sufficient.
+issues](https://github.com/dickerdackel/tinyecs-compsys/issues)
 
 ## License
 

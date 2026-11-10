@@ -10,6 +10,8 @@ Synopsis
 
    import tinyecs.compsys as cs
 
+   cs.register()
+
 Usage
 -----
 
@@ -25,7 +27,7 @@ It's up to you, if you install the currently provided `compsys` packages from
 
 .. code:: console
 
-   pip install tinyecs[all]
+   pip install tinyecs[base]
 
 or include them all by adding specific dependencies:
 
@@ -40,7 +42,7 @@ Support / Contributing
 
 Issues can be opened on `github issues`_
 
-.. _github issues: https://forgejo.indieandmore.photography/dickerdackel/tinyecs-compsys/issues
+.. _github issues: https://github.com/dickerdackel/tinyecs-compsys/issues
 
 License
 -------
