@@ -1,6 +1,6 @@
 [project]
 name = "tinyecs-compsys"
-description = "compsys root for tinyecs"
+description = "Compsys root for tinyecs"
 version = "0.0.1"
 readme = "README.rst"
 
