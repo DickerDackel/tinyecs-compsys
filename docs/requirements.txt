@@ -3,5 +3,3 @@ setuptools
 sphinx
 furo
 sphinx-autobuild
-tinyecs
-aenum
