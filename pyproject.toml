@@ -1,6 +1,6 @@
 [project]
 name = "tinyecs-compsys"
-description = "Compsys root for tinyecs"
+description = "Compsys namespace package for tinyecs"
 version = "0.0.1"
 readme = "README.rst"
 
@@ -24,8 +24,8 @@ dependencies = [
 ]
 
 [project.urls]
-homepage = "https://forgejo.indieandmore.photography/dickerdackel/tinyecs-compsys"
-bugtracker = "https://forgejo.indieandmore.photography/dickerdackel/tinyecs-compsys/issues"
+homepage = "https://github.com/dickerdackel/tinyecs-compsys"
+bugtracker = "https://github.com/dickerdackel/tinyecs-compsys/issues"
 
 [build-system]
 requires = ["setuptools"]
