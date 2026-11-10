@@ -31,8 +31,7 @@ html_theme = 'furo'
 html_static_path = ['_static']
 html_theme_options = {
     "navigation_with_keys": True,
-    "source_view_link": "https://forgejo.indieandmore.photography/dickerdackel/tinyecs-compsys/src/branch/main/src/{filename}",
-    "source_edit_link": "https://forgejo.indieandmore.photography/dickerdackel/tinyecs-compsys/_edit/main/src/{filename}",
+    "source_repository": "https://github.com/dickerdackel/tinyecs-compsys/",
     "source_branch": "main",
     "source_directory": "docs/source",
     "dark_css_variables": {

@@ -13,21 +13,43 @@ cs.register()
 
 ## Usage
 
-Besides finding and registering sub modules, this package has no direct
-functionality. Calling the `register` function will import all
-submodules, which will in turn inject all their components into the
-`Comp` `aenum`.
+This package provides the namespace and a starting point for all
+`tinyecs-compsys-<CATEGORY>` packages.
+
+Importing this package and calling its `register` function will import
+all immediate subpackages and have those inject their component IDs into
+the `Comp` enum.
+
+**Note:**
+
+The `Comp` contains symbols to use as component IDs in `tinyecs`. While
+every hashable is a valid component ID, and it\'s completely fine to
+just use strings for small projects, using the provided enum has the
+benefit of finding typing errors much easier. It\'s recommended to make
+use of that.
+
+This package makes use of `aenum`, an advanced and extendable implementation
+of python enums, written by the same author that also maintains the official
+python version.
+
+If you create your own components and systems, you can add those to
+`Comp` as well:
+
+    from aenum import extend_enum
+
+    extend_enum(cs.Comp, 'YOUR_COMPONENT')
+    ...
 
 ## Installation
 
-It\'s up to you, if you install the currently provided
-[compsys]{.title-ref} packages from [tinyecs]{.title-ref} by using
+It\'s up to you, if you install the currently provided `compsys` packages from
+`tinyecs` by using
 
 ``` console
 pip install tinyecs[base]
 ```
 
-or include them all by adding specific dependencies:
+or include them by adding specific dependencies:
 
 ``` console
 pip install tinyecs

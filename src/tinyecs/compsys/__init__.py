@@ -15,9 +15,9 @@ class Prop(StrEnum):
 def register():
     """Register all tinyecs-compsys subpackages.
 
-    Use this at the beginning of your project to import all subpackages into
-    the ``tinyecs.compsys`` namespace. Registered packages will inject their
-    components into ``tinyecs.compsys.Comp``.
+    Use this at the beginning of your project to import all immediate
+    subpackages into the ``tinyecs.compsys`` namespace. Registered packages
+    will inject their component IDs into ``tinyecs.compsys.Comp``.
     """
 
     for sub in iter_modules(__path__):
