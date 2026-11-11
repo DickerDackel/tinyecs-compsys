@@ -1,7 +1,7 @@
 [project]
 name = "tinyecs-compsys"
 description = "Compsys namespace package for tinyecs"
-version = "0.0.2"
+version = "0.0.3"
 readme = "README.rst"
 
 authors = [
