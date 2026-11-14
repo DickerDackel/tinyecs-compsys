@@ -19,10 +19,10 @@ documentation of the official sub-packages:
 * `tinyecs.compsys.sdl2`_
 * `tinyecs.compsys.patternengine`_
 
-.. _tinyecs.compsys.base`: https://tinyecs-compsys-base.readthedocs.io/en/latest/
-.. _tinyecs.compsys.dynamics`: https://tinyecs-compsys-dynamics.readthedocs.io/en/latest/
-.. _tinyecs.compsys.sdl2`: https://tinyecs-compsys-sdl2.readthedocs.io/en/latest/
-.. _tinyecs.compsys.patternengine`: https://tinyecs-compsys-patternengine.readthedocs.io/en/latest/
+.. _tinyecs.compsys.base: https://tinyecs-compsys-base.readthedocs.io/en/latest/
+.. _tinyecs.compsys.dynamics: https://tinyecs-compsys-dynamics.readthedocs.io/en/latest/
+.. _tinyecs.compsys.sdl2: https://tinyecs-compsys-sdl2.readthedocs.io/en/latest/
+.. _tinyecs.compsys.patternengine: https://tinyecs-compsys-patternengine.readthedocs.io/en/latest/
 
 Index
 =====
